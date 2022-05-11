@@ -1,1 +1,57 @@
-a.txt 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #9ACD32;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color:#FFFFFF;
+  height: 60px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<article>
+  <th>
+    <td>NOVA</td>
+  </th>
+</article>
+<section>
+  <th>
+    <td>HOME</td>
+    <td>ABOUT US</td>
+    <td>PAGIS</td>
+  </th>
+</section>
+
+<header>
+  <h2>Registration</h2>
+</header>
+
+</body>
+</html>

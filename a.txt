@@ -49,9 +49,6 @@ section::after {
   </th>
 </section>
 
-<header>
-  <h2>Registration</h2>
-</header>
-
 </body>
 </html>
+HI
